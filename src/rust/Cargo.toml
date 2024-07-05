@@ -1,0 +1,13 @@
+[package]
+name = 'orbweaverRextras'
+publish = false
+version = '0.1.0'
+edition = '2021'
+
+[lib]
+crate-type = [ 'staticlib' ]
+name = 'orbweaverRextras'
+
+[dependencies]
+extendr-api = '*'
+orbweaver_r = { git =  "https://github.com/ixpantia/orbweaver-r.git" }
